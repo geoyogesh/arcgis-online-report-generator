@@ -15,6 +15,12 @@ def main():
     print('getting all users')
     users = utilities.get_all_users(token)
     print(users)
+    print('getting all groups')
+    groups = utilities.get_all_groups(token)
+    print(groups)
+    print('getting all items')
+    items = utilities.get_all_items(token)
+    print(items)
     print('completed')
 
 if __name__== "__main__":
